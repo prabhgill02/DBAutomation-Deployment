@@ -2,7 +2,7 @@
 import mysql.connector
 import os
 
-# # Database connection details
+# # Database connection details for local setup
 # DB_CONFIG = {
 #     "host": "localhost",  
 #     "user": "root",        # Your MySQL username
@@ -18,7 +18,6 @@ DB_CONFIG = {
     "password": os.getenv("DB_PASSWORD"),
     "database": os.getenv("DB_NAME")
 }
-
 # Read SQL script from file
 # Pass the script file you want to execute
 # SQL_FILE = "schemachanges_script.sql"
